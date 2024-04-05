@@ -26,6 +26,8 @@ const DropdownNavItem = ({ product, isActive, onClick }) => {
         <div className="dropdown-content">
           <img src={product.imageUrl} alt={product.subTitle} className="product-image" />
           <div className="product-details">
+            <h4 className="product-details-id"> 0{product.id}</h4>
+            <h4 className="product-details-subtitle">{product.subTitle}</h4>
             <h3 className="product-details-title">{product.title}</h3>
             <p className="product-details-content">{product.details}</p>
             <button className="learnMoreBtn" onClick={handleLearnMoreClick}>Learn More</button>
