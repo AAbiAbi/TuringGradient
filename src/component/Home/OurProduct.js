@@ -62,7 +62,7 @@ const OurProduct = () => {
     },
   ];
 
-  const baseSpacing = 100;
+
 
   const [activeIndex, setActiveIndex] = useState(-1);
 
