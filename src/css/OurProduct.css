@@ -112,7 +112,8 @@
   /* Take the full width of the parent */
   /* height: 100%; */
   max-width: 15000px; 
-  /* Center the slides container vertically */ /* Use flexbox to align children */
+  /* Center the slides container vertically */ 
+  /* Use flexbox to align children */
   
 }
 /* This will hold both the slides and the navigation bar */
@@ -207,8 +208,7 @@
   font-weight: bold; /* Make the number bold when active or hovered */
 }
 
-/* You may need to adjust the .slide and .slide.active styles to ensure that 
-   the navigation bar does not overlap with the slide content */
+/* You may need to adjust the .slide and .slide.active styles to ensure that the navigation bar does not overlap with the slide content */
 
    .nav-item {
     display: flex;

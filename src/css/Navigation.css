@@ -51,11 +51,8 @@
   line-height: 1.5rem; /* Color of the active menu item */
   /* Add other styles for active state */
 }
-/* .MenuItem:not(.Home) {
-    color: white;
-    line-height: 1.5rem; /* Corresponds to leading-6 */
-/* } */
-*/ .SubscribeButton {
+
+.SubscribeButton {
   font-family: "Michroma", sans-serif;
   background-color: transparent; /* Transparent background */
   color: white; /* White text */
