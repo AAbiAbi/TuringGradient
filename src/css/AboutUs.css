@@ -19,12 +19,7 @@
     padding-right: 1rem;
 }
 
-/* @media (min-width: 1024px) {
-  .AboutUsRoot {
-    padding: 128px; /* lg:p-32 in Tailwind */
-    /* text-align: left; */
-  /* } */
-/* } */ */
+
 
 .Title {
   border-left: 4px solid #00ffff;
@@ -105,10 +100,10 @@
 
 .ServiceBlock {
   border: 2px solid #00ffff;
-  shadow: 0 2px 4px #00ffff;
+  box-shadow: 0 2px 4px #00ffff;
   border-radius: 0.5rem;
   padding: 1.5rem;
-  space-y: 1rem;
+  gap: 1rem;
 }
 
 .ServiceIcon {

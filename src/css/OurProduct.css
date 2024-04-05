@@ -108,7 +108,8 @@
   justify-content: center; 
   /* Center the slides container horizontally */
   align-items: center; 
-  width: 100%; /* Take the full width of the parent */
+  width: 100%; 
+  /* Take the full width of the parent */
   /* height: 100%; */
   max-width: 15000px; 
   /* Center the slides container vertically */ /* Use flexbox to align children */
