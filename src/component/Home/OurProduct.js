@@ -4,22 +4,31 @@ import image1 from '../../assest/1.png';
 import image3 from '../../assest/3.png';
 import image4 from '../../assest/4.png';
 import "../../css/OurProduct.css";
+import { useNavigate } from 'react-router-dom';
 
 const DropdownNavItem = ({ product, isActive, onClick }) => {
+  const navigate = useNavigate();
+
+  const handleLearnMoreClick = () => {
+    navigate(`/products`); // Use the product ID to create a unique route
+  };
+
   return (
     <div className="nav-item">
       <button className={`drop-button ${isActive ? 'active' : ''}`} onClick={onClick}>
-        0{product.id}
-        {product.title}
-        {product.subTitle}
+        
+        <div className="drop-button-title">{product.title}</div>
+        <div className="drop-button-subtitle">{product.subTitle}</div>
+        <div className="drop-button-id">0{product.id}</div>
+        
       </button>
       {isActive && (
         <div className="dropdown-content">
           <img src={product.imageUrl} alt={product.subTitle} className="product-image" />
           <div className="product-details">
-            <h3>{product.title}</h3>
-            <p>{product.details}</p>
-            <button className="learnMoreBtn">Learn More</button>
+            <h3 className="product-details-title">{product.title}</h3>
+            <p className="product-details-content">{product.details}</p>
+            <button className="learnMoreBtn" onClick={handleLearnMoreClick}>Learn More</button>
           </div>
         </div>
       )}
@@ -68,7 +77,7 @@ const OurProduct = () => {
 
 
 
-  const [activeIndex, setActiveIndex] = useState(-1);
+  const [activeIndex, setActiveIndex] = useState(0);
 
 
 
