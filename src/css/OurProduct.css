@@ -323,6 +323,44 @@
     font-family: 'Michroma', sans-serif;
   }
 
+  .drop-button-title {
+    padding: 20px;
+    padding-left: 60px;
+    /* padding-top: 500px; */
+    font-size: 1rem;
+    border-top: #000;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Michroma', sans-serif;
+    transform: rotate(-90deg); /* Rotate the text -90 degrees */
+    transform-origin: left 30px; /* Sets the point around which a rotation occurs */
+    white-space: nowrap;
+  }
+
+  .drop-button-subtitle {
+    padding: 20px;
+    padding-left: 10px;
+    /* padding-top: 500px; */
+    font-size: 1rem;
+    border-top: #000;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Michroma', sans-serif;
+    color: #000;
+
+    transform: rotate(-90deg);
+    transform-origin: right 300px, left 300px;
+    
+  }
+
   .product-details-content {
     display: flex;
     flex-direction: column;
