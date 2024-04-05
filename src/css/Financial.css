@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sans:wght@400;700&display=swap');
+
+ 
+  
+  .hero-title {
+    color: #fff;
+    font: 400 40px/80px 'Michroma', -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .banner-section {
+    position: relative;
+    overflow: hidden;
+    min-height: 536px;
+    margin-top: 60px;
+    color: #fff;
+    padding: 351px 42px 51px;
+  }
+  
+  .banner-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+  }
+  
+  .banner-title {
+    z-index: 1;
+    font: 400 56px/67px 'Michroma', -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .metrics-section,
+  .mission-section {
+    margin-top: 60px;
+  }
+  
+  .metrics-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .financial-metric {
+    flex: 1;
+    margin-top: 40px;
+  }
+  
+  .financial-metric-label {
+    color: #0ff;
+    font: 20px/19px 'Michroma', sans-serif;
+  }
+  
+  .financial-metric-value {
+    color: #fff;
+    font: 64px/150% 'Michroma', sans-serif;
+  }
+  
+  .mission-text {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    /* font: 50px 50px/36px; */
+    font: 64px/150%
+  }
+  
+  
+  

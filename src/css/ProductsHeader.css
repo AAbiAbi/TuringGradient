@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+.main-container {
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  z-index: -1;
+}
+
+.hero-section {
+  position: relative;
+  min-height: 1000px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+.logo-image {
+  width: 100%;
+  margin-top: 67px;
+  aspect-ratio: 3.03;
+  z-index: 1;
+}
+
+.Productssubtitle {
+  margin-top: 57px;
+  font-size: 25px;
+  line-height: 140%;
+  font-family: 'Michroma', sans-serif;
+  z-index: 1;
+  font-weight: 300;
+}
+
+.ProductsTitle {
+  color: #0ff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 112px;
+  font-weight: 10;
+  line-height: 120%;
+  font-family: 'Michroma', sans-serif;
+  z-index: 1;
+}
+
+.Productsdescription {
+  margin: 0 0 40px;
+  font-size: 40px;
+  line-height: 90%;
+  font-family: 'Michroma', sans-serif;
+  z-index: 1;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .hero-section,
+  .logo-image,
+  .subtitle,
+  .title,
+  .description {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .logo-image {
+    margin-top: 40px;
+  }
+
+  .subtitle,
+  .title {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .description {
+    margin-bottom: 40px;
+  }
+}

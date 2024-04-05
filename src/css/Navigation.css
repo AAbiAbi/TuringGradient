@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+
+.NaviRoot {
+  border-style: solid;
+  /* border-bottom: 1px solid #4e4e4e; */
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem; /* Corresponds to py-6 */
+  padding-bottom: 1.5rem; /* Corresponds to py-6 */
+  padding-left: 1rem; /* Corresponds to px-4 */
+  padding-right: 1rem; /* Corresponds to px-4 */
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .NaviRoot {
+    padding-left: 5rem; /* Corresponds to md:px-20 */
+    padding-right: 5rem; /* Corresponds to md:px-20 */
+  }
+}
+
+.Logo {
+  width: 4rem; /* Corresponds to w-16 */
+}
+
+.MenuItems {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem; /* Corresponds to gap-8 */
+  font-family: "Michroma", sans-serif;
+  text-decoration: none;
+}
+.MenuItems a {
+  text-decoration: none; /* This will remove the underline */
+}
+.MenuItem {
+  font-size: 1.125rem; /* Corresponds to text-lg */
+  letter-spacing: 0.225em; /* Corresponds to tracking-[0.9em] */
+  line-height: 1.5rem; 
+  /* Corresponds to leading-9 */
+  color: white; /* Specific color for the 'Home' item */
+}
+
+.MenuItem.active {
+  color: #00ffff;
+  font-size: 1.125rem; /* Corresponds to text-lg */
+  letter-spacing: 0.225em; /* Corresponds to tracking-[0.9em] */
+  line-height: 1.5rem; /* Color of the active menu item */
+  /* Add other styles for active state */
+}
+/* .MenuItem:not(.Home) {
+    color: white;
+    line-height: 1.5rem; /* Corresponds to leading-6 */
+/* } */
+*/ .SubscribeButton {
+  font-family: "Michroma", sans-serif;
+  background-color: transparent; /* Transparent background */
+  color: white; /* White text */
+  border: 2px solid white; /* White border */
+  padding: 10px 20px; /* Top and bottom padding of 10px, left and right padding of 20px */
+  font-size: 1rem; /* Font size of 1rem */
+  border-radius: 10px; /* Rounded corners with a radius of 10px */
+  cursor: pointer; /* Hand cursor on hover */
+  outline: none; /* Remove outline */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.SubscribeButton:hover {
+  font-family: "Michroma", sans-serif;
+  background-color: transparent; /* Transparent background */
+  color: white; /* White text */
+  border: 2px solid white; /* White border */
+  padding: 10px 20px; /* Top and bottom padding of 10px, left and right padding of 20px */
+  font-size: 1rem; /* Font size of 1rem */
+  border-radius: 10px; /* Rounded corners with a radius of 10px */
+  cursor: pointer; /* Hand cursor on hover */
+  outline: none; /* Remove outline */
+  transition: background-color 0.3s, color 0.3s;
+
+  background-color: white;
+  color: black;
+}
+
+.contactButton {
+  font-family: "Michroma", sans-serif;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contactButton:hover {
+  background-color: white;
+  color: black;
+}

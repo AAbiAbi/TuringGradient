@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.AboutUsRoot {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Michroma', sans-serif;
+    /* width: 100%; */
+    /* width: 100%; */
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* @media (min-width: 1024px) {
+  .AboutUsRoot {
+    padding: 128px; /* lg:p-32 in Tailwind */
+    /* text-align: left; */
+  /* } */
+/* } */ */
+
+.Title {
+  border-left: 4px solid #00ffff;
+  padding-top: 24px; /* py-6 in Tailwind */
+  padding-bottom: 24px; /* py-6 in Tailwind */
+  padding-left: 16px; /* px-4 in Tailwind */
+  margin-bottom: 32px; /* mb-8 in Tailwind */
+}
+
+/* Responsive design adjustment for larger screens */
+@media (min-width: 1024px) { /* lg breakpoint in Tailwind */
+     #Title {
+      padding-left: 64px; /* lg:px-16 in Tailwind */
+      margin-left: 80px; /* lg:ml-20 in Tailwind */
+      margin-bottom: 64px; /* lg:mb-16 in Tailwind */
+     } 
+} 
+
+.Highlight {
+  color: #00ffff;
+}
+
+.StatsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .StatsSection {
+    flex-direction: row;
+    gap: 3.5rem;
+  }
+}
+
+.StatsBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.StatsTitle {
+  color: #00ffff;
+}
+
+.StatsNumber {
+  font-size: 6rem;
+}
+
+.AboutDescription {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .AboutDescription {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.ServiceSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .ServiceSection {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+}
+
+.ServiceBlock {
+  border: 2px solid #00ffff;
+  shadow: 0 2px 4px #00ffff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  space-y: 1rem;
+}
+
+.ServiceIcon {
+  width: 1.25rem;
+  display: inline;
+}
+
+.ServiceDescription {
+  color: #00ffff;
+}

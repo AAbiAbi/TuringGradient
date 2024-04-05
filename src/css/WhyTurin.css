@@ -1,0 +1,140 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+/* Root Element Style */
+.AboutUsRoot {
+  background-color: black;
+  color: white;
+  font-family: 'Michroma', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 32px; /* Converted from 'gap-32' */
+  padding: 16px; /* Converted from 'p-4' */
+  text-align: center;
+}
+
+@media (min-width: 640px) { /* sm breakpoint */
+  .AboutUsRoot {
+    padding-left: 40px; /* Converted from 'sm:px-10' */
+    padding-right: 40px; /* Converted from 'sm:px-10' */
+  }
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .AboutUsRoot {
+    padding-left: 80px; /* Converted from 'md:px-20' */
+    padding-right: 80px; /* Converted from 'md:px-20' */
+    padding-top: 128px; /* Converted from 'md:py-32' */
+    padding-bottom: 128px; /* Converted from 'md:py-32' */
+    text-align: left;
+  }
+}
+
+/* Title Style */
+.Title {
+  font-size: 1.875rem; /* Converted from 'text-3xl' */
+  letter-spacing: -0.125rem; /* Converted from 'tracking-[-2]' */
+  line-height: 1.125; /* Converted from 'leading-tight' */
+  border-left: 4px solid #00ffff;
+  padding-left: 1rem; /* Converted from 'pl-4' */
+  padding-top: 0.5rem; /* Converted from 'py-2' */
+  padding-bottom: 0.5rem; /* Converted from 'py-2' */
+  width: 100%;
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .Title {
+    font-size: 3.25rem; /* Converted from 'md:text-5xl' */
+    line-height: 50.4px; /* Converted from 'md:leading-[50.4px]' */
+    padding-left: 1.5rem; /* Converted from 'md:pl-6' */
+  }
+}
+
+/* Text Highlight Style */
+.Highlight {
+  color: #00ffff;
+}
+
+/* Content Section Style */
+.ContentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* Converted from 'gap-10' */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContentSection1 {
+    display: flex;
+    flex-direction: row-reverse; /* Align children horizontally */
+    align-items: center; /* Align children vertically */
+    gap: 2.5rem; /* Converted from 'gap-10' */
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .ContentSection {
+    flex-direction: row;
+  }
+}
+
+/* Reversed Content Section Style for alternate image positioning */
+.ContentSectionReverse {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .ContentSectionReverse {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Content Text Style */
+.ContentText {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Converted from 'gap-8' */
+  max-width: 50%; 
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .ContentText {
+    width: 50%; /* Converted from 'md:w-1/2' */
+  }
+}
+
+/* Content Heading Style */
+.ContentHeading {
+  font-size: 1.5rem; /* Converted from 'text-2xl' */
+  line-height: 1.5; /* Converted from 'leading-snug' */
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .ContentHeading {
+    font-size: 1.875rem; /* Converted from 'md:text-3xl' */
+    line-height: 48px; /* Converted from 'md:leading-[48px]' */
+  }
+}
+
+/* Content Paragraph Style */
+.ContentParagraph {
+  font-size: 1rem;; /* Converted from 'text-lg' */
+  line-height: 1.5; /* Converted from 'leading-snug' */
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .ContentParagraph {
+    font-size: 1.25rem; /* Converted from 'md:text-xl' */
+  }
+}
+
+/* Content Image Style */
+.ContentImage {
+    max-width: 150%;
+    width: 800px;
+  height: auto;
+  display: block;
+}
+
+/* Apply additional custom styles as necessary */

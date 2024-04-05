@@ -5,6 +5,9 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  width: 100%;
+  max-width: 1200px; /* Maximum width of the app */
+  margin: 0 auto; /* Center the app */
 }
 
 @media (prefers-reduced-motion: no-preference) {
