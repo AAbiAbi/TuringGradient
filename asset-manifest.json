@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TuringGradient/static/css/main.edea54d6.css",
+    "main.css": "/TuringGradient/static/css/main.6071aa32.css",
     "main.js": "/TuringGradient/static/js/main.f48d7924.js",
     "static/js/453.6dde2adf.chunk.js": "/TuringGradient/static/js/453.6dde2adf.chunk.js",
     "static/media/1.png": "/TuringGradient/static/media/1.a86d563b65954db34abf.png",
@@ -8,12 +8,12 @@
     "static/media/3.png": "/TuringGradient/static/media/3.16e980f76cbe0a15e887.png",
     "static/media/4.png": "/TuringGradient/static/media/4.658d886a998156af5d15.png",
     "index.html": "/TuringGradient/index.html",
-    "main.edea54d6.css.map": "/TuringGradient/static/css/main.edea54d6.css.map",
+    "main.6071aa32.css.map": "/TuringGradient/static/css/main.6071aa32.css.map",
     "main.f48d7924.js.map": "/TuringGradient/static/js/main.f48d7924.js.map",
     "453.6dde2adf.chunk.js.map": "/TuringGradient/static/js/453.6dde2adf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edea54d6.css",
+    "static/css/main.6071aa32.css",
     "static/js/main.f48d7924.js"
   ]
 }
