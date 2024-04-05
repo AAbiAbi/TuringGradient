@@ -1,5 +1,8 @@
 import  { useState } from "react";
-
+import image2 from '../../assest/2.png';
+import image1 from '../../assest/1.png';
+import image3 from '../../assest/3.png';
+import image4 from '../../assest/4.png';
 import "../../css/OurProduct.css";
 
 const DropdownNavItem = ({ product, isActive, onClick }) => {
@@ -8,6 +11,7 @@ const DropdownNavItem = ({ product, isActive, onClick }) => {
       <button className={`drop-button ${isActive ? 'active' : ''}`} onClick={onClick}>
         0{product.id}
         {product.title}
+        {product.subTitle}
       </button>
       {isActive && (
         <div className="dropdown-content">
@@ -28,7 +32,7 @@ const OurProduct = () => {
   const products = [
     {
       id: 1,
-      imageUrl: "https://file.rendit.io/n/NpfT7nCGo9Sjq2Jh1Efo.png",
+      imageUrl: image1,
       title: "TuringTitan",
       subTitle: "LLM for the financial Market",
       details:
@@ -38,7 +42,7 @@ const OurProduct = () => {
     // ... your product objects
     {
       id: 2,
-      imageUrl: "../../assest/2.png",
+      imageUrl: image2,
       title: "TuringRadar",
       subTitle: "Data Analysis for  Financial Market",
       details:
@@ -46,7 +50,7 @@ const OurProduct = () => {
     },
     {
       id: 3,
-      imageUrl: "https://file.rendit.io/n/NpfT7nCGo9Sjq2Jh1Efo.png",
+      imageUrl: image3,
       title: "TuringTrading",
       subTitle: "Autonomous trading system",
       details:
@@ -54,7 +58,7 @@ const OurProduct = () => {
     },
     {
       id: 4,
-      imageUrl: "https://file.rendit.io/n/NpfT7nCGo9Sjq2Jh1Efo.png",
+      imageUrl: image4,
       title: "TuringCrystal",
       subTitle: "Real Time Trading Strategy",
       details:

@@ -219,6 +219,7 @@
     height: 100%;
     border-right: 2px solid black;
     
+    position: relative;
   }
   
   .drop-button {
@@ -231,7 +232,7 @@
     cursor: pointer;
     text-align: center;
     width: 100%;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;;
     
   }
   
@@ -241,16 +242,17 @@
     background: transparent;
   }
   .drop-button::after {
-    content: '^';
+    content: '>';
     font-weight: bold;
+    
     display: inline-block;
     margin-left: 10px;
-    transform: rotate(90deg); /* Rotate arrow to point downwards */
+    transform: translateY(-50%),rotate(90deg); /* Rotate arrow to point downwards */
     transition: transform 0.3s;
   }
   
   .drop-button.active::after {
-    transform: rotate(-90deg); /* Rotate arrow to indicate active state */
+    transform: rotate(-180deg); /* Rotate arrow to indicate active state */
   }
 
   .drop-button:hover,

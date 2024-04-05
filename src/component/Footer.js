@@ -28,16 +28,16 @@ const Footer = forwardRef((props, ref) => {
                   className="submit-button"
                 >
                   Submit
-                  <img
-                    src="https://file.rendit.io/n/pIR5makETq7YRnSqLUnY.svg"
-                    alt="Arrow"
-                    className="arrow-icon"
-                  />
+                <img
+                  src="https://file.rendit.io/n/pIR5makETq7YRnSqLUnY.svg"
+                  alt="Arrow"
+                  className="arrow-icon"
+                />
                 </button>
               </div>
             </div>
           </div>
-    
+          <div className="footer-top-line"></div>
           <div className="footer">
             <div className="links">
               <span className="link-item">About Us</span>
