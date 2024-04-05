@@ -1,4 +1,4 @@
-import react from 'react';
+
 import Header from './Product/Header';
 import TurinGradient from './Product/TurinGradient';
 import WhyTurinGradient from './Product/WhyTurinGradient';

@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import  { useState } from "react";
 
 import "../../css/OurProduct.css";
 
@@ -66,21 +66,9 @@ const OurProduct = () => {
 
   const [activeIndex, setActiveIndex] = useState(-1);
 
-  const calculateOffset = (index) => {
-    // Distance from the active index
-    const distance = index - activeIndex;
-    // Stacking to the left or right depending on the distance
-    if (distance < 0) {
-      return baseSpacing * distance;
-    } else if (distance > 0) {
-      return baseSpacing * (distance - 1);
-    }
-    return 0; // Active index has no offset
-  };
 
-  const handleSlideChange = (index) => {
-    setActiveIndex(index);
-  };
+
+
 
   const handleDropdownClick = (index) => {
     // Toggle the active index on click, closing if the same index is clicked again

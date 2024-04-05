@@ -1,6 +1,6 @@
-import react from "react";
+
 import "../css/Navigation.css";
-import { Link, NavLink} from "react-router-dom";
+import {  NavLink} from "react-router-dom";
 
 const Navigation = ({ onContactClick }) => {
   return (

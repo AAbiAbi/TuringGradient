@@ -1,4 +1,4 @@
-import react from 'react';
+
 import Header from './Home/Header';
 import OurProduct from './Home/OurProduct';
 import AboutUs from './Home/AboutUs';
