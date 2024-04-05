@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TuringGradient/static/css/main.10c64422.css",
+    "main.js": "/TuringGradient/static/js/main.a7e731c9.js",
+    "static/js/453.6dde2adf.chunk.js": "/TuringGradient/static/js/453.6dde2adf.chunk.js",
+    "index.html": "/TuringGradient/index.html",
+    "main.10c64422.css.map": "/TuringGradient/static/css/main.10c64422.css.map",
+    "main.a7e731c9.js.map": "/TuringGradient/static/js/main.a7e731c9.js.map",
+    "453.6dde2adf.chunk.js.map": "/TuringGradient/static/js/453.6dde2adf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10c64422.css",
+    "static/js/main.a7e731c9.js"
+  ]
+}
